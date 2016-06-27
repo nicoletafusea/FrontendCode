@@ -1,7 +1,3 @@
-node_modules
-.idea
-*.iml
-.classpath
-.project
-.settings
+node_module
 bower_components
+.idea
