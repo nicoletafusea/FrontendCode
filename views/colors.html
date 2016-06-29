@@ -1,9 +1,0 @@
-<div ng-controller="ColorsController">
-    <select ng-options="color.text for color in colors" ng-model="selected" ng-change="changeColor()">
-    </select>
-    <label ng-class="ceva">Culoare</label>
-    <input type="text" ng-model="input"/>
-    <div ng-repeat="color in colors | filter : input">
-        {{color.text}}
-    </div>
-</div>
